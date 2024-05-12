@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Myint Myat/IdeaProjects/AT_Assign_SauceDemo">
+        <classes>
+            <class name="TestCases.AllTestCases">
+                <methods>
+                    <include name="TestCase_SuccessfulLogin"/>
+                    <include name="TestCase_SortFromHighToLow"/>
+                    <include name="TestCase_AddtoCartItems"/>
+                    <include name="TestCase_CheckOut"/>
+                    <include name="TestCase_LockedOutUserValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
